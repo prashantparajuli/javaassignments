@@ -1,3 +1,4 @@
+/*Program to find the area of rectangle and circle*/
 class Index{
     public static void main(String[] args) {
         Area a = new Area();
