@@ -1,4 +1,4 @@
-#Help Me
+********** Help Me ***********
 
-You can add questions here..
-
+- You can add questions here..(java only)
+- Or you can try to solve the questions.
