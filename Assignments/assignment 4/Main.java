@@ -57,7 +57,7 @@ class Bank_trans {
     void initializeAccount() {
         System.out.println("Enter the name:");
         name = sc.next();
-        System.out.println("Choose account type for "+name+":\n\n\t1.Saving\n2\t.Current\n3\t.Fixed");
+        System.out.println("Choose account type for "+name+":\n\n\t1.Saving\n\t2.Current\n\t3.Fixed");
         char type = sc.next().charAt(0);
         switch (type) {        //See I told you
             case '1': 
