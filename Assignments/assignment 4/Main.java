@@ -71,6 +71,7 @@ class Bank_trans {
                 acc_type="fixed";
                 break;
             default:
+                System.out.println("Please choose valid option!!\n\n");
                 break;
         }
         System.out.println("Enter account number of "+name+":");
