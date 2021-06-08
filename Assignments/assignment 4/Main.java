@@ -21,7 +21,7 @@ public class Main{
         Bank_trans bt = new Bank_trans();
         Scanner sc = new Scanner(System.in);
         do{
-            System.out.println("***** Choose the operation:(a-d)✅ *****");
+            System.out.println("***** Choose an operation:(a-d)✅ *****");
             System.out.println("a.Initialize an account");
             System.out.println("b.Deposit amount");
             System.out.println("c.Withdraw balance");
