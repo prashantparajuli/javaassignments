@@ -51,8 +51,7 @@ public class Main{
 
 }
 class Bank_trans {
-    private String name, acc_no;
-    String acc_type;
+    private String name, acc_no, acc_type;
     private long blc, tot_blc;
     Scanner sc = new Scanner(System.in);
     void initializeAccount() {
