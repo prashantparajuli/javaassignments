@@ -21,7 +21,7 @@ public class Main{
         Bank_trans bt = new Bank_trans();
         Scanner sc = new Scanner(System.in);
         do{
-            System.out.println("***** Choose an operation:(a-d)✅ *****");
+            System.out.println("***** Choose an operation:(a-e)✅ *****");
             System.out.println("a.Initialize an account");
             System.out.println("b.Deposit amount");
             System.out.println("c.Withdraw balance");
@@ -58,7 +58,7 @@ class Bank_trans {
     void initializeAccount() {
         System.out.println("Enter the name:");
         name = sc.next();
-        System.out.println("Choose account type for "+name+":\n1.Saving\n2.Current\n3.Fixed");
+        System.out.println("Choose account type for "+name+":\n\n\t1.Saving\n2\t.Current\n3\t.Fixed");
         char type = sc.next().charAt(0);
         switch (type) {        //See I told you
             case '1': 
