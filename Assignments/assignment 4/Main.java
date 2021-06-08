@@ -29,7 +29,7 @@ public class Main{
             System.out.println("e.EXIT");
             ch = sc.next().charAt(0);
             System.out.println("\n\n\n");
-            if (ch=='a'){   //I know switch...case statement too, okay??
+            if (ch=='a'){   //I know (switch...case statement) too, okay???
                 bt.initializeAccount();
             }
             else if (ch=='b'){
@@ -50,14 +50,30 @@ public class Main{
    
 
 }
-public class Bank_trans {
-    private String name, acc_type, acc_no;
+class Bank_trans {
+    private String name, acc_no;
+    String acc_type;
     private long blc, tot_blc;
     Scanner sc = new Scanner(System.in);
     void initializeAccount() {
         System.out.println("Enter the name:");
         name = sc.next();
-        System.out.println("Enter account number:");
+        System.out.println("Choose account type for "+name+":\n1.Saving\n2.Current\n3.Fixed");
+        char type = sc.next().charAt(0);
+        switch (type) {        //See I told you
+            case '1': 
+                acc_type = "Saving";
+                break;
+            case '2':
+                acc_type = "Current";
+                break;
+            case '3':
+                acc_type="fixed";
+                break;
+            default:
+                break;
+        }
+        System.out.println("Enter account number of "+name+":");
         acc_no = sc.next();
         System.out.println("Enter the initial amount to deposit:");
         blc = sc.nextLong();
@@ -81,6 +97,7 @@ public class Bank_trans {
         System.out.println("************** Acoount Details📖 **************");
         System.out.println("Account Number: "+acc_no);
         System.out.println("Name: "+name);
+        System.out.println("Account Type: "+acc_type);
         System.out.println("Total balance: "+tot_blc);
         System.out.println("\n\n\n");
         
