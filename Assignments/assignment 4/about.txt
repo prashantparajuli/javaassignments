@@ -1,0 +1,14 @@
+This program demonstrate simple banking management system, using java.
+This is assignment 4 of advanced java programming class.
+Following is the question:
+Q. Define a class to represent a bank account. Include the following members:
+ i. Data members:
+     a.Name of account holder
+     b.Account number
+     c.Account type
+     d.Balance amount
+ii. Member functions:
+     a.To assign initial values from user
+     b.To deposit an amount
+     c.To withdraw an amount
+     d.To display name and balance
