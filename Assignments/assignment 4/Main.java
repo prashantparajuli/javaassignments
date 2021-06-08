@@ -29,7 +29,7 @@ public class Main{
             System.out.println("e.EXIT");
             ch = sc.next().charAt(0);
             System.out.println("\n\n\n");
-            if (ch=='a'){
+            if (ch=='a'){   //I know switch...case statement too, okay??
                 bt.initializeAccount();
             }
             else if (ch=='b'){
