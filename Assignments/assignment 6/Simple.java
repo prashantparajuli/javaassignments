@@ -10,7 +10,8 @@ function called set() to assign data to the fields and a function called get() t
 a main program to test your classes. What form of inheritance will the classes hold in this case?
 ANS : Hierarchical inheritance.
 */
-public class Simple {
+//save as Simple.java
+public class Simple {       
     public static void main(String[] args) {
         Manager_1 manager = new Manager_1();
         SuperVisor sv = new SuperVisor();
