@@ -1,0 +1,5 @@
+You can copy and paste the Simple.java and asave as... Y'll know it...
+change the values of parameters in line no. 17 and 18 for different output
+
+"little bit complex" contains the same assignment but it accepts user input.
+which is not necessary according to question.
