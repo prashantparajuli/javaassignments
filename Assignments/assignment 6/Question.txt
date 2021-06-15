@@ -1,0 +1,10 @@
+QUESTION:::
+Instructions
+A company needs to keep record of its following Employees:
+    i) Manager      ii) Supervisor
+The record requires name and salary of both employees. In addition, it also requires section_name (i.e. name of
+section, example Accounts, Marketing, etc.) for the Manager and group_id (Group identification number, e.g.
+205, 112, etc.) for the Supervisor. Design classes for the above requirement. Each of the classes should have a
+function called set() to assign data to the fields and a function called get() to return the value of the fields. Write
+a main program to test your classes. What form of inheritance will the classes hold in this case?
+ANS : Hierarchical inheritance.
