@@ -8,6 +8,7 @@ section, example Accounts, Marketing, etc.) for the Manager and group_id (Group 
 205, 112, etc.) for the Supervisor. Design classes for the above requirement. Each of the classes should have a
 function called set() to assign data to the fields and a function called get() to return the value of the fields. Write
 a main program to test your classes. What form of inheritance will the classes hold in this case?
+ANS : Hierarchical inheritance.
 */
 
 import java.util.*;
