@@ -1,0 +1,6 @@
+2.Write some benefits of interface in java.
+Ans=> Following are some important benefits of interface in java:
+    a. It helps to achieve multiple inheritance.
+    b. Easy to implement.
+    c. Makes code reusable and readable.
+    d. Helps to achieve abstraction.
