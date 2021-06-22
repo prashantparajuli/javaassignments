@@ -1,7 +1,7 @@
 
 /*
-Name : Prashanta parajuli
-Roll: 20
+Name : 
+Roll: 
 QUESTION::
 Solve the problem of inheritance discussed in the class.
 Problem:
