@@ -1,0 +1,13 @@
+Assignment 9
+Problem:
+-  Create a custom exception class that validates input name whose length must be at least 3 
+   characters.
+
+Instruction:
+Clone/download/copy the Index.java and run it using 'java Index.java' in commandline.
+
+
+
+* Note: Copying assignment is a bad habit..
+
+                                                                               - MR.TOPUS!R...
